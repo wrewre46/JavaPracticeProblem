@@ -1,6 +1,6 @@
 public class Ex6_3_4 {
     public static void main(String[] args) {
-        Student s = new Student();
+        Student1 s = new Student1();
         s.name = "홍길동";
         s.ban = 1;
         s.no = 1;
@@ -12,7 +12,7 @@ public class Ex6_3_4 {
         System.out.println("평균:" + s.getAverage());
     }
 }
-class Student{
+class Student1{
     String name;
     int ban;
     int no;
